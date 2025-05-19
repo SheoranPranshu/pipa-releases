@@ -1,4 +1,4 @@
-1. Instructions for flashing custom rom (pipa)
+# Instructions for flashing custom rom (pipa)
 2. Download the ROM package along with boot, dtbo, vendor_boot (links mentioned in post) and firmware as specified on post if not included in rom.
 3. Put downloaded files in a folder (your platform tools folder preferred)
 4. Reboot to bootloader (hold power + volume down button)
