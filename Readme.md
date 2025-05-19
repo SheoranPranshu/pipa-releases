@@ -1,7 +1,7 @@
 # Instructions for flashing custom rom (pipa)
 - Download the ROM package along with boot, dtbo, vendor_boot (links mentioned in post) and firmware as specified on post if not included in rom.
 - Put downloaded files in a folder (your platform tools folder preferred)
-- Reboot to bootloader (hold power + volume down button)
+- Reboot to fastboot (hold power + volume down button)
 - In your PC, open terminal where you copied the above files and run the following commands:
 ```
 fastboot flash boot boot.img
@@ -30,7 +30,7 @@ First of all recovery here refers to boot.img, dtbo.img and vendor_boot.img file
 
 - Device rebooted to classic bootloader whatever it is, maybe I will attach image too to clarify more
    - Nothing to worry just choose reboot bootloader and flash stock fastboot rom
-![Alt text](https://i.ibb.co/1Y92zFXj/IMG-20250513-201944-808.jpg")   
+![Classic Bootloader](https://i.ibb.co/1Y92zFXj/IMG-20250513-201944-808.jpg)   
 
 - While sideloading rom it shows status 3 and flash aborted
   -You need to update adb version
