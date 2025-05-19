@@ -26,17 +26,17 @@ First of all recovery here refers to boot.img, dtbo.img and vendor_boot.img file
   - If you got error something like that then you need an older recovery then the build itself. You can get recovery from older builds of any rom and then flash the rom you want.
   
 - The downloaded rom package extension is .bin
- - You just need to rename the package and change .bin to .zip
+  - You just need to rename the package and change .bin to .zip
 
 - Device rebooted to classic bootloader whatever it is, maybe I will attach image too to clarify more
-   - Nothing to worry just choose reboot bootloader and flash stock fastboot rom
+  - Nothing to worry just choose reboot bootloader and flash stock fastboot rom
 ![Classic Bootloader](https://i.ibb.co/1Y92zFXj/IMG-20250513-201944-808.jpg)   
 
 - While sideloading rom it shows status 3 and flash aborted
- - You need to update adb version
+  - You need to update adb version
 
 - Device not showing in fastboot or adb
- - Maybe you need to install drivers, check Xiaomi Pad 6 Official or AOSP group for drivers
+  - Maybe you need to install drivers, check Xiaomi Pad 6 Official or AOSP group for drivers
 
 - fastboot is not recognised as an internal or external command
- - You need platform tools, check Xiaomi Pad 6 Official or AOSP group for adb or adbplus
+  - You need platform tools, check Xiaomi Pad 6 Official or AOSP group for adb or adbplus
