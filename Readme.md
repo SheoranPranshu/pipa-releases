@@ -5,8 +5,14 @@
 - In your PC, open terminal where you copied the above files and run the following commands:
 ```
 fastboot flash boot boot.img
+```
+```
 fastboot flash dtbo dtbo.img
+```
+```
 fastboot flash vendor_boot vendor_boot.img
+```
+```
 fastboot reboot recovery
 ```
 - Format data via recovery (optional if flashing on the same ROM)
