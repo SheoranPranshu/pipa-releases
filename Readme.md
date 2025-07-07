@@ -21,7 +21,7 @@ fastboot reboot recovery
 - In your PC terminal, run adb sideload firmware.zip (replace firmware.zip with the downloaded firmware name)
 - Then reboot recovery (not necessary tho) and select "Apply update"
 - In your PC terminal, run adb sideload rom.zip (replace rom.zip with the downloaded ROM package name)
-- If you are flashing a vanilla build and want to flash GApps, select "Reboot to recovery" (installation ends at 47% displayed on your PC terminal) and then sideload GApps by selecting "Apply update". Skip this step if you are already flashing a GApps build
+- If you are flashing a vanilla build and want to flash GApps, select "Reboot to recovery" (installation ends at 47% (95% for A16 builds) displayed on your PC terminal) and then sideload GApps by selecting "Apply update". Skip this step if you are already flashing a GApps build
 - Reboot to system
  
 # Some common errors:
